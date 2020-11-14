@@ -12,7 +12,7 @@ android {
     buildToolsVersion versions.buildTools
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion versions.minSdk
         targetSdkVersion versions.compileSdk
         versionCode versions.publishVersionCode_core
         versionName versions.publishVersion_core
